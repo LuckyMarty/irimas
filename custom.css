@@ -1,0 +1,865 @@
+/* PAGE ACCUEIL */
+
+div.elementor-widget-wrap{
+	z-index:0;
+}
+
+/* LOGO SITE */
+
+@media screen and (max-width: 750px) {
+     div.d-inline-block.align-left.mr-2{
+        margin-right:0!important;
+		width:1%;
+		 margin-left:-1vw;
+      }
+  }
+
+
+
+/* PAGE PUBLICATIONS EQUIPE */
+/* BARRE DE RECHERCHES */
+
+input.sf-input-text{
+	width:20vw;
+	border-radius:6px;
+	border:none;
+	height:5vh;
+}
+
+select.sf-input-select{
+	width:20vw;
+	border-radius:6px;
+}
+
+@media screen and (max-width: 750px) {
+     input.sf-input-text{
+        width:65vw;
+      }
+	select.sf-input-select{
+		width:65vw;
+	}
+  }
+
+@media screen and (max-width: 1000px) {
+     input.sf-input-text{
+        width:65vw;
+      }
+	select.sf-input-select{
+		width:65vw;
+	}
+  }
+
+
+
+
+
+/* PAGE INSCRIPTION */
+
+/* Arrondir les input de la page d'inscription */
+.ur-frontend-form .ur-form-row .ur-form-grid input[type=date], .ur-frontend-form .ur-form-row .ur-form-grid input[type=email], .ur-frontend-form .ur-form-row .ur-form-grid input[type=number], .ur-frontend-form .ur-form-row .ur-form-grid input[type=password], .ur-frontend-form .ur-form-row .ur-form-grid input[type=phone], .ur-frontend-form .ur-form-row .ur-form-grid input[type=text], .ur-frontend-form .ur-form-row .ur-form-grid input[type=timepicker], .ur-frontend-form .ur-form-row .ur-form-grid input[type=url], .ur-frontend-form .ur-form-row .ur-form-grid select, .ur-frontend-form .ur-form-row .ur-form-grid textarea {
+	border-radius:6px;
+	width: 35vw;
+}
+
+/* Input Nom */
+input#user_login.input-text.ur-frontend-field{
+	margin-left:5.7vw;
+	display: -webkit-inline-box;
+	width:25vw;
+}
+
+/* Input Prénom */
+input#first_name.input-text.ur-frontend-field{
+	margin-left: 4.3vw;
+	width:25vw;
+}
+
+/* Input Email */
+input#user_email.input-text.input-email.ur-frontend-field{
+	margin-left: 5.25vw;
+	width:25vw;
+}
+
+/* Input Téléphone */
+input#number_box_1594555467.input-text.input-number.ur-frontend-field{
+	display: -webkit-inline-box;
+	width:25vw;
+	margin-left:1.7vw;
+}
+
+/* Input Profession */
+input#input_box_1594555605.input-text.ur-frontend-field{
+	display: -webkit-inline-box;
+	width:25vw;
+	margin-left:4.1vw;
+}
+
+/* Input Site Web */
+input#user_url.input-text.input-url.ur-frontend-field{
+	display: -webkit-inline-box;
+	width:25vw;
+	margin-left:5vw;
+}
+
+/* Input Mdp */
+input#user_pass.input-text.input-password.ur-frontend-field{
+	display: -webkit-inline-box;
+	width:25vw;
+	margin-left:2.5vw;
+}
+
+/* Input Vérif Mdp */
+input#user_confirm_password.input-text.input-password.ur-frontend-field{
+	display: -webkit-inline-box;
+	width:20vw;
+	margin-left:1vw;
+}
+
+/* S'inscrire */
+button.btn.button.ur-submit-button{
+	display:block!important;
+	background-color:#88b5d6;
+	border-radius:6px;
+}
+
+button.btn.button.ur-submit-button:hover{
+	background-color:#2a4960;
+	color:white;
+}
+
+
+/* PAGE INSCRIPTION RESPONSIVE */
+
+@media screen and (max-width: 750px) {
+    input#user_login.input-text.ur-frontend-field {
+        width:40vw;
+		margin-left:10vw;
+      }
+	input#first_name.input-text.ur-frontend-field{
+		width:40vw;
+		margin-left:7vw;
+	}
+	input#user_email.input-text.input-email.ur-frontend-field{
+		width:40vw;
+		margin-left:9.2vw;
+	}
+	input#number_box_1594555467.input-text.input-number.ur-frontend-field{
+		width:40vw;
+		margin-left:1vw;
+	}
+	input#input_box_1594555605.input-text.ur-frontend-field{
+		width:40vw;
+		margin-left:5.9vw;
+	}
+	input#user_url.input-text.input-url.ur-frontend-field{
+		width:40vw;
+		margin-left:8vw;
+	}
+	input#user_pass.input-text.input-password.ur-frontend-field{
+		width:40vw;
+		margin-left:1.9vw;
+	}
+	input#user_confirm_password.input-text.input-password.ur-frontend-field{
+		width:40vw;
+		margin-left:4vw;
+	}
+  }
+
+
+
+
+
+
+/* Menu burger */
+
+.navbar-dark .navbar-toggler-icon {
+    font-size: larger;
+}
+
+.navbar-dark .navbar-toggler {
+   transition: 0.4s;
+}
+
+
+.navbar-dark .navbar-toggler:hover {
+   transform: scale(0.9);
+   transition: 0.4s;
+}
+
+
+
+/* PAGE INSCRITPION 2 */
+
+p.form-submit{
+	text-align:center;
+	border-radius:5px;
+}
+
+.form-submit{
+	text-align:center;
+	border-radius:5px;
+}
+
+
+.wppb-user-forms, .wppb-user-forms * {
+	color:black;
+}
+
+
+/******************************************************************************/
+/*****************************************************************************/
+							/* UNE PUBLICATION / UN POST */
+/***************************************************************************/
+/**************************************************************************/
+
+/* Infos du post */
+div.container>div#primary.content-area>main#main.site-main>div.infos{
+	display: flex;
+    margin-bottom: 7vh;
+    font-size: larger;
+}
+
+/* Sous titres : Auteur */
+div.container>div#primary.content-area>main#main.site-main>div.infos>div{
+	margin-right: auto;
+    border-bottom: 2px groove #98b9d6;
+    padding: 2vw;
+    width: 40%;
+    text-align: center;
+}
+
+/* Sous titres : Date de publication */
+div.container>div#primary.content-area>main#main.site-main>div.infos>div{
+	margin-left: auto;
+    border-bottom: 2px groove #98b9d6;
+    padding: 2vw;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* Le contenu de la page */
+div#primary.content-area>main#main.site-main{
+	margin-top:5vh;
+}
+
+/* Contenu du post */
+div#primary.content-area>main#main.site-main>p{
+	background-color:aliceblue;
+	padding:10px;
+	margin: 0 !important;
+}
+
+/* Contenu du post - Elementor */
+/* div#primary.content-area>main#main.site-main>div.elementor.elementor-368>div.elementor-inner>div.elementor-section-wrap>section.elementor-element.elementor-element-5f0760f.elementor-section-boxed.elementor-section-height-default.elementor-section.elementor-top-section{
+	background-color:aliceblue;
+} */
+
+/* La longueur du textarea */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-comment>div>textarea#comment{
+	height: 13vh;
+    width: 30vw;
+	margin-top: 2vh;
+}
+
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-comment>div#aec_edit_options>span#AtD_0{
+	    margin-left: 2vw;
+}
+
+/* Le petit titre "commentaire" */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-comment>label{
+	display:block;
+	font-weight:bold;
+}
+
+/* L'autre petit titre "Laisser un commentaire", enlevé */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>h3#reply-title.comment-reply-title{
+	display:none;
+}
+
+/* Textes qui permet de se connecter pour érire un commentaire, enlevé */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.logged-in-as{
+	display:none;
+}
+
+/* Utilisateur non connecté : texte enlevé */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-notes{
+	display:none;
+}
+
+/* Utilisateur non connecté : pour espacer un peu les input */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-author>label{
+	margin-right:3vw;
+}
+/* Utilisateur non connecté : pour espacer un peu les input */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-email>label{
+	margin-right:3vw;
+}
+/* Utilisateur non connecté : pour espacer un peu les input */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-url>label{
+	margin-right:3vw;
+}
+
+/* Utilisateur non connecté : pour aligner la case check et le texte */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-cookies-consent{
+	display:flex;
+	align-items:baseline;
+}
+/* Utilisateur non connecté : pour mettre un petit espace entre la case et le texte */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-cookies-consent>input#wp-comment-cookies-consent{
+	margin-right:1vw;
+}
+
+/* Pour espacer la partie commentaire du reste de la page */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.comment-form-comment{
+	margin-top:10vh;
+}
+
+/* Sous-commentaire */
+div#primary.content-area>main#main.site-main>ol.commentlist>li>ul.children{
+	margin-left: 4vw;
+    margin-top: 3vh;
+    background-color: #f2f3f4;
+	list-style: none;
+    border-left: 2px solid darkslateblue;
+    padding: 10px;
+}
+
+
+/* Bouton submit */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.form-submit>input#submit.submit{
+	border: none;
+    border-radius: 6px;
+    padding: 7px;
+    display: block;
+	box-shadow: 4px 4px 5px #cad9e6;
+	transition-duration:0.4s;
+}
+/* Bouton submit hover */
+div#primary.content-area>main#main.site-main>div#respond.comment-respond>form#commentform.comment-form>p.form-submit>input#submit.submit:hover{
+	transition-duration:0.4s;
+	transform:scale(0.9);
+	box-shadow: none;
+}
+
+/* Titre "navigation de l'article" enlevé */
+div#primary.content-area>main#main.site-main>nav.navigation.post-navigation>h2.screen-reader-text{
+	display:none;
+}
+
+/* Lien de l'article précédent espacé du reste en-haut */
+div#primary.content-area>main#main.site-main>nav.navigation.post-navigation{
+	margin-top:5vh;
+}
+
+/* Lorsqu'il y a des commentaires */
+div#primary.content-area>main#main.site-main>ol.commentlist{
+	list-style:none;
+}
+/* Lorsqu'il y a des commentaires */
+div#primary.content-area>main#main.site-main>h3#comments{
+	font-size:23px;
+	margin-top:20vh;
+	margin-bottom:4vh;
+}
+
+/* Lorsqu'il y a des commentaires */
+div#primary.content-area>main#main.site-main>ol.commentlist>li{
+	margin-top:4vh;
+    padding: 12px;
+    width: 60vw;
+}
+
+/* Lorsqu'il y a des commentaires */
+div#primary.content-area>main#main.site-main>ol.commentlist>li:nth-child(even){
+	background-color: aliceblue;
+}
+
+
+
+/******************************************************************************/
+/*****************************************************************************/
+							/* PAGE POSTER UNE PUBLICATION */
+/***************************************************************************/
+/**************************************************************************/
+
+/* Pour enlever le sous-itre */
+main>div.container>div.elementor.elementor-242>div.elementor-inner>div.elementor-section-wrap>section.elementor-element.elementor-element-1893acc6.elementor-section-boxed.elementor-section-height-default.elementor-section.elementor-top-section>div.elementor-container.elementor-column-gap-default>div.elementor-row>div.elementor-element.elementor-element-d0672a1.elementor-column.elementor-col-100.elementor-top-column>div.elementor-column-wrap.elementor-element-populated>div.elementor-widget-wrap>div.elementor-element.elementor-element-757ab17c.elementor-widget.elementor-widget-text-editor>div.elementor-widget-container>div.elementor-text-editor.elementor-clearfix>div.ap-form-wrapper>div.ap-pro-front-form-wrapper>h2.ap-pro-front-form-title{
+	display:none;
+}
+
+
+
+
+
+/******************************************************************************/
+/*****************************************************************************/
+							/* PAGE COTISATION CAFE */
+/***************************************************************************/
+/**************************************************************************/
+
+/***************/
+/* Mode Admin */
+/*************/
+
+/* Ajouter un membre */
+
+main#cafe_cotisation.container>form{
+    font-family: sans-serif;
+}
+
+main#cafe_cotisation.container>#form_ajouter{
+    margin: auto;
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset{
+    border:none;
+    background-color:#d4ecf4;
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>legend{
+    text-align: center;
+    font-size:25px;
+}
+
+/* ligne 1 */
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne1{
+    text-align: center;
+    margin-top:4vh;
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne1>input{
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    margin: 5px;
+    width: 15vw;
+}
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne1{
+		display:inline-grid;
+		width:100%;
+	}
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne1>span{
+		display:inline-grid;
+		justify-self:center;
+	}
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne1>input{
+		width:40vw;
+		justify-self:center;
+	}
+}
+
+/* Entre les 2 'lignes' : "Cet utilisateur vient d'être ajouté" */
+main#cafe_cotisation.container>form>fieldset>div:nth-child(4){
+	margin-left:2vw;
+	margin-top:1vh;
+}
+
+
+/* ligne 2 */
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne2{
+    text-align: center;
+    margin-top:4vh;
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne2>input{
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    margin: 5px;
+    width: 15vw;
+}
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne2{
+		display:inline-grid;
+		width:100%;
+		margin-top:-1vh;
+	}
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne2>span{
+		display:inline-grid;
+		justify-self:center;
+	}
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne2>input{
+		width:40vw;
+		justify-self:center;
+	}
+}
+
+/* ligne 3 */
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne3{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne3{
+		margin:0;
+		margin-top:3vh;
+	}
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne3>input:last-child{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: auto;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:none;
+    border-radius:6px;
+	margin-bottom:3vh;
+}
+
+main#cafe_cotisation.container>#form_ajouter>fieldset>.ligne3>input:last-child:hover{
+    transition-duration: 0.4s;
+    transform:scale(1.1);
+    box-shadow: 5px 5px 5px #829da6;
+}
+
+/**********************/
+/* Supprimer un membre */
+/**********************/
+
+main#cafe_cotisation.container>#form_supprimer{
+    margin: auto;
+    margin-top:4vh;
+    margin-bottom:4vh;
+}
+
+main#cafe_cotisation.container>#form_supprimer>fieldset{
+    border:none;
+    background-color:#b8cad0;
+    text-align:center;
+}
+
+main#cafe_cotisation.container>#form_supprimer>fieldset>legend{
+    font-size:25px;
+    text-align: center;
+}
+
+main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+    height: 4vh;
+    border-radius: 6px;
+    width: 15vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border: none;
+}
+
+@media screen and (max-width:1200px){
+	main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+		width:25vw;
+	}
+}
+
+@media screen and (max-width:880px){
+	main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+		width:30vw;
+	}
+}
+
+@media screen and (max-width:700px){
+	main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+		width:35vw;
+	}
+}
+
+@media screen and (max-width:600px){
+	main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+		width:40vw;
+	}
+}
+
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>#form_supprimer>fieldset>select{
+		width:45vw;
+	}
+}
+
+main#cafe_cotisation.container>#form_supprimer>fieldset>input,
+main#cafe_cotisation.container>#form_cotisation>fieldset>input {
+    border-radius: 6px;
+    border: none;
+    padding: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5vh;
+    background-color:#e6f0f3;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+main#cafe_cotisation.container>#form_supprimer>fieldset>input:hover,
+main#cafe_cotisation.container>#form_cotisation>fieldset>input:hover {
+    transition-duration: 0.4s;
+    transform:scale(1.1);
+    box-shadow: 5px 5px 5px #829da6;
+}
+
+
+/*****************************/
+/* Tableau Cotisation ADMIN */
+/***************************/
+
+main#cafe_cotisation.container>#form_cotisation{
+    margin: auto;
+	margin-bottom: 80px;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset{
+    border:none;
+    background-color:#e9f8fd;
+    padding: 10px;
+	overflow-x: auto;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>legend{
+    font-size:25px;
+    text-align: center;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table{
+    margin:auto;
+	width: 100%;
+}
+
+/* main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr>th{
+    padding:10px;
+} */
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr>th:first-child>span{
+    width: 200px;
+}
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr>th:first-child{
+		width:35vw;
+	}
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr>td{
+/*     padding:10px; */
+	border: 1px solid black;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr>td>input[type="button"] {
+	border: none;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr:first-child{
+    background-color:#688691;
+    color:white;
+	text-align: center;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr:first-child>th>span {
+    width: 80px;
+    text-align: center;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>table>tbody>tr:nth-child(even){
+    background-color:#abcbd6;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>.boutons{
+    width: 100%;
+    text-align: center;
+}    
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>.boutons>input{
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top:2vh;
+    background-color:#bfcbcc;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+main#cafe_cotisation.container>#form_cotisation>fieldset>.boutons>input:hover{
+    transition-duration: 0.4s;
+    transform:scale(1.1);
+    box-shadow: 5px 5px 5px #829da6;
+}
+
+/***************/
+/* Historique */
+/*************/
+
+/* main#cafe_cotisation.container>a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-left: 47%;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: -61px;
+    transition-duration: 0.4s;
+}
+
+main#cafe_cotisation.container>a:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(43, 52, 53);
+    color:white;
+} */
+
+
+
+/**************************/
+/* Sélectionner une date */
+/************************/
+
+main#cafe_cotisation.container>form>select{
+    height: 4vh;
+    border-radius: 6px;
+    width: 15vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:1200px){
+	main#cafe_cotisation.container>form>select{
+		width:20vw;
+	}
+}
+
+@media screen and (max-width:880px){
+	main#cafe_cotisation.container>form>select{
+		width:25vw;
+	}
+}
+
+@media screen and (max-width:700px){
+	main#cafe_cotisation.container>form>select{
+		width:30vw;
+	}
+}
+
+@media screen and (max-width:600px){
+	main#cafe_cotisation.container>form>select{
+		width:35vw;
+	}
+}
+
+
+@media screen and (max-width:500px){
+	main#cafe_cotisation.container>form>select{
+		width:40vw;
+	}
+}
+
+/****************************************/
+/* Table Cotisation Simple utilisateur */
+/**************************************/
+
+main#cafe_cotisation.container>div#txtHint>table{
+    margin:auto;
+	margin-bottom:4vh;
+}
+
+main#cafe_cotisation.container>div#txtHint>table>tbody>tr>th{
+    padding:10px;
+}
+
+main#cafe_cotisation.container>div#txtHint>table>tbody>tr>th:first-child{
+    width: 15vw;
+}
+
+
+main#cafe_cotisation.container>div#txtHint>table>tbody>tr>td{
+    padding:10px;
+}
+
+main#cafe_cotisation.container>div#txtHint>table>tbody>tr:first-child{
+    background-color:#688691;
+    color:white;
+}
+
+main#cafe_cotisation.container>div#txtHint>table>tbody>tr:nth-child(even){
+    background-color:#abcbd6;
+}
+
+
+/****************************/
+/* Mode Simple utilisateur */
+/**************************/
+
+main#cafe_historique.container>form>select{
+	margin-top:3vh;
+	border-radius:6px;
+	border:1px solid black;
+}
+
+main#cafe_historique.container>div#txtHint>table{
+    margin:auto;
+	margin-bottom:4vh;
+}
+
+main#cafe_historique.container>div#txtHint>table>tbody>tr>th{
+    padding:10px;
+}
+
+main#cafe_historique.container>div#txtHint>table>tbody>tr>th:first-child{
+    width: 15vw;
+}
+
+
+main#cafe_historique.container>div#txtHint>table>tbody>tr>td{
+    padding:10px;
+}
+
+main#cafe_historique.container>div#txtHint>table>tbody>tr:first-child{
+    background-color:#688691;
+    color:white;
+}
+
+main#cafe_historique.container>div#txtHint>table>tbody>tr:nth-child(even){
+    background-color:#abcbd6;
+}
+
+
+
+
+
+
+
+/***********/
+/* Footer */
+/*********/
+
+footer.container-fluid.text-center>span{
+	display: contents;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

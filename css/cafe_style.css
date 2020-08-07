@@ -1,0 +1,22 @@
+
+
+/***********************/
+/* Tableau Cotisation */
+/*********************/
+
+span {
+    /* width: 60px; */
+    display: inline-block;
+}
+
+input[value="2"] {
+    background: transparent;
+}
+
+input[value="0"] {
+    background: red;
+}
+
+input[value="1"] {
+    background: green;
+}
